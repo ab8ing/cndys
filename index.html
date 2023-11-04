@@ -1,0 +1,415 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" id="viewport" content="width=device-width, initial-scale=1">
+    <link href="wbgx.jpg" rel="shortcut icon" />
+    <title>我不甘心</title>
+    <style>
+        video.watch {
+            border: 0.001px solid #aaa;
+            object-fit: cover;
+            border-radius: 10px;
+            width: 100%;
+            height: 100%;
+        }
+
+        button {
+            margin: 20px 5px 20px 5px;
+            background: white;
+            border-style: solid;
+            border: 1px solid black;
+            border-radius: 50px;
+            font-size: 1rem;
+            padding: 10px 50px 10px 50px;
+            text-align: center;
+            -webkit-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+            text-decoration: none;
+            color: black;
+        }
+
+        button:hover {
+            background-color: black;
+            border-color: gray;
+            color: white;
+        }
+
+        details {
+            border: 1px solid #aaa;
+            border-radius: 10px;
+            padding: 5px;
+            margin: 5px;
+        }
+
+        summary {
+            font-weight: bold;
+            margin: 5px;
+            padding: 5px;
+        }
+
+        img {
+            border: 0.001px solid #aaa;
+            object-fit: cover;
+            border-radius: 4px;
+            width: 100%;
+            height: 100%;
+        }
+
+        img.click {
+            -webkit-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+        }
+
+        img.click:hover {
+
+            transform: rotate(7deg);
+            -ms-transform: rotate(7deg);
+            /* IE 9 */
+            -moz-transform: rotate(7deg);
+            /* Firefox */
+            -webkit-transform: rotate(7deg);
+            /* Safari 和 Chrome */
+            -o-transform: rotate(7deg);
+            /* Opera */
+
+        }
+
+        .aq5 {
+            border: 1px solid #aaa;
+            border-radius: 10px;
+            padding: 5px;
+            margin: 5px;
+        }
+    </style>
+</head>
+
+<body style="text-align: center">
+
+    <audio id="music" src="cndy.mp3" hidden></audio>
+    <audio id="music1" src="wbgx.mp3" hidden></audio>
+    <audio id="music2" src="/wbgx/002.mp3" loop hidden></audio>
+    <audio id="music3" src="/wbgx/【浅唱大帝&啸劳】喜欢你（好きだ）.mp3" loop hidden></audio>
+    <audio id="music4" src="/wbgx/studio_video_1699048609402.mp3" hidden></audio>
+    <audio id="music5" src="/wbgx/abab.mp3" loop hidden></audio>
+    <audio id="music6" src="/wbgx/miku miku oo ee oo但是浅唱大蛇.mp3" loop hidden></audio>
+    <audio id="music7" src="/wbgx/最终鬼畜浅唱大帝.mp3" loop hidden></audio>
+
+    <img src="wbgx.jpg" onClick="play1()" style="width:150px;padding:35px;" class="click" />
+    <p style="font-size:36px;" onClick="play1()">我不甘心</p>
+
+    <div class="aq5" style="border: 1px solid #aaa;border-radius: 10px;padding: 5px;margin: 5px;">
+        <p style="font-weight: 900;font-size:24px;">经典视频片段</p>
+        <video src="/wbgx/『补档』浅唱の我不甘心.mp4" controls loop preload="auto" poster="/wbgx/bg666.png" class="watch"></video>
+        <div id="cyTvbarrage" role="cylabs" data-use="tvbarrage"></div>
+        <script type="text/javascript" charset="utf-8" src="http://cy-cdn.kuaizhan.com/js/??lib/jquery.js,changyan.labs.js?appid=cyvvUCT9M"></script>       
+    </div>
+
+    <div class="aq5" style="border: 1px solid #aaa;border-radius: 10px;padding: 5px;margin: 5px;">
+        <p style="font-weight: 900;font-size:24px;">鬼畜音乐</p>
+        <button onClick="play3()">我不甘心不妙曲</button>
+        <button onClick="play4()">浅唱/捞总《喜欢你》</button>
+        <button onClick="play5()">浅唱大帝/屑作（30S）</button>
+        <button onClick="play6()">浅唱 浅唱OEO </button>
+        <button onClick="play7()">最终鬼畜浅唱大帝 </button>
+
+        <script>
+            window.onload = function() {
+                var audio = document.getElementById('music2');
+                audio.pause(); //打开页面时无音乐
+
+            }
+
+            function play3() {
+                var audio = document.getElementById('music2');
+                if (audio.paused) {
+                    audio.play();
+                } else {
+                    audio.pause();
+                    audio.currentTime = 0; //音乐从头播放
+                }
+            }
+        </script>
+
+        <script>
+            window.onload = function() {
+                var audio = document.getElementById('music3');
+                audio.pause(); //打开页面时无音乐
+
+            }
+
+            function play4() {
+                var audio = document.getElementById('music3');
+                if (audio.paused) {
+                    audio.play();
+                } else {
+                    audio.pause();
+                    audio.currentTime = 0; //音乐从头播放
+                }
+            }
+        </script>
+
+        <script>
+            window.onload = function() {
+                var audio = document.getElementById('music5');
+                audio.pause(); //打开页面时无音乐
+
+            }
+
+            function play5() {
+                var audio = document.getElementById('music5');
+                if (audio.paused) {
+                    audio.play();
+                } else {
+                    audio.pause();
+                    audio.currentTime = 0; //音乐从头播放
+                }
+            }
+        </script>
+
+        <script>
+            window.onload = function() {
+                var audio = document.getElementById('music6');
+                audio.pause(); //打开页面时无音乐
+
+            }
+
+            function play6() {
+                var audio = document.getElementById('music6');
+                if (audio.paused) {
+                    audio.play();
+                } else {
+                    audio.pause();
+                    audio.currentTime = 0; //音乐从头播放
+                }
+            }
+        </script>
+
+        <script>
+            window.onload = function() {
+                var audio = document.getElementById('music7');
+                audio.pause(); //打开页面时无音乐
+
+            }
+
+            function play7() {
+                var audio = document.getElementById('music7');
+                if (audio.paused) {
+                    audio.play();
+                } else {
+                    audio.pause();
+                    audio.currentTime = 0; //音乐从头播放
+                }
+            }
+        </script>
+
+    </div>
+
+    <details>
+        <summary>浅唱的生平事迹 👆（感谢由FBI探员C君提供虚拟文案，纯属娱乐）</summary>
+        <p style="font-weight: 900;font-size:24px;color:#FF002E;">文案纯属娱乐虚构，请勿当真！请适度玩梗，图片按文案的意思可能会抽象化，如果图片过于抽象自行脑补</p>
+        <details>
+            <summary>1989年 👆</summary>
+            <p>1989年浅唱出生</p><img src="/wbgx/1699048068750.jpg" onClick="play0()" class="click" />
+        </details>
+
+        <details>
+            <summary>1岁时 👆</summary>
+            <p>一岁就读美国哈佛大学旁边的垃圾桶</p><img src="/wbgx/1699049383656.jpg" onClick="play0()" class="click" />
+        </details>
+
+        <details>
+            <summary>2岁时 👆</summary>
+            <p>二岁被母亲捡到</p><img src="/wbgx/1699049582013.png" onClick="play0()" class="click" />
+        </details>
+
+        <details>
+            <summary>3-5岁时 👆</summary>
+            <ul>
+                <li>三岁找到父亲</li>
+                <li>四岁便拥有骑士精神分裂</li>
+                <img src="/wbgx/bg666.png" onClick="play0()" class="click" />
+                <li>五岁开始骗号 </li>
+            </ul>
+        </details>
+
+        <details>
+            <summary>6-7岁时 👆</summary>
+            <ul>
+                <li>六岁上幼儿园</li>
+                <li>七岁写出自传《骑士是如何当国王的》 </li>
+                <img src="/wbgx/bg666.png" onClick="play0()" class="click" />
+            </ul>
+            <p>方法是把国王杀了，王后当后宫的“R.I.P.”</p>
+            <img src="/wbgx/1699058060011.jpg" onClick="play0()" class="click" />
+        </details>
+
+        <details>
+            <summary>8-12岁时 👆</summary>
+            <ul>
+                <li>八岁引领潮流</li>
+                <img src="/wbgx/Screenshot_2023-11-04-09-14-35-58_149003a2d400f6adb210d7e357a3a646.jpg" onClick="play0()" class="click" />
+                <li>九岁写出感人小说 </li>
+                <img src="/wbgx/16990471697331.png" onClick="play0()" class="click" />
+                <p>内容是：19岁女孩嫁给40岁老男人的故事“《简爱》”，逆天抽象</p>
+            </ul>
+            <img src="/wbgx/1699060884107.jpg" onClick="play0()" class="click" />
+            <p>十岁因为自己闲着无聊进监狱</p>
+            <img src="/wbgx/1699062512594.png" onClick="play0()" class="click" />
+            <p>十一岁在一张玛丽连海报后面挖洞越狱</p>
+            <p>十二岁改名唱丽丝</p>
+            <p> 追破壁兔子掉进兔子洞<br>
+                和疯子喝下午茶<br>
+                疯子叫疯唱子<br>
+                喜欢唱片机播放空白唱<br>
+                旁边有只兔子<br>
+                叫三月唱</p>
+        </details>
+
+        <details>
+            <summary>13-28岁时 👆</summary>
+            <p>十三岁当上公主</p>
+            <p>白唱公主和七个爱之花洒</p>
+            <p>公主浅唱被后妈抛弃</p>
+            <p>当了灰姑唱</p>
+            <p>穿着骗来的水晶拖鞋去城堡夺走后妈的政权</p>
+            <p>发动红色政变</p>
+            <p>引导十唱革命</p>
+
+            <p>
+                十四岁<br>
+                发布专辑 <br>
+                唱勒斯威夫特 <br>
+                乡村阴乐 <br>
+                十五当获得唱莱美年度专辑 <br>
+                十六岁在唱唱A颁奖中被小劳抢话筒 <br>
+                十七岁就读楼兰大学学习楼兰语法 <br>
+                十八岁用安分守己 <br>
+                十九岁主修不甘心系 <br>
+                二十岁得了抑郁症，因为他不甘心 <br>
+                二十一岁他有趣 <br>
+                二十二岁发布专辑巜不甘心色》 <br>
+                二十三岁毕业于楼兰大学 <br>
+                二十四岁发布专辑《2023》是㳘行复古合成器述叙了他如何打不过白银晋级赛的 <br>
+                二十五岁《2023》获唱莱美不甘心奖 <br> <img src="/wbgx/25.jpg" onClick="play1()" class="click" />
+                二十六当被一个十八岁纯情小高中生进的故事骗了，他不甘心 <br>
+                二十七岁他不甘心的回来了 <br>
+                二十八岁发布专辑《甘心》 <br>
+                其中最热门的歌曲 <br>
+                《你看看你让我甘心了什么》<br>
+                <img src="/wbgx/333916990673572.png" onClick="play()" class="click" />
+            </p>
+
+        </details>
+
+        <details>
+            <summary>29岁时 👆</summary>
+            <p>Old浅唱已经死了，我是无悔<br>至今，二十九岁浅唱仍在甘心哲学上研究</p>
+            <img src="/wbgx/Cache_555e15b30151e76e.jpg" onClick="play1()" class="click" />
+        </details>
+
+        <details onClick="play()">
+            <summary>小彩蛋 👆</summary>
+            <img src="/wbgx/1699047169733.png" class="click" />
+            <p>🥰更喜欢浅唱了（这是路人“即把”，不是站长”）</p>
+        </details>
+
+        <script>
+            window.onload = function() {
+                var audio = document.getElementById('music4');
+                audio.pause(); //打开页面时无音乐
+
+            }
+
+            function play0() {
+                var audio = document.getElementById('music4');
+                if (audio.paused) {
+                    audio.play();
+                } else {
+                    audio.pause();
+                    audio.currentTime = 0; //音乐从头播放
+                }
+            }
+        </script>
+    </details>
+
+    <details>
+        <summary>关于此网页 👆</summary>
+        <img src="/wbgx/1699047169733.png" />
+        <p>网页纯用html制作，没什么含量但是有效果就行😂</p>
+        <p>此网站使用的方式为github+vercel进行运行网页</p>
+        <p>本站非常喜欢浅唱，是I唱哦</p>
+        <p>感谢FBI糖员C君提供的文案</p>
+    </details>
+
+    <details>
+        <summary>关于浅唱本人 👆</summary>
+        <img src="/wbgx/Screenshot_2023-11-04-09-14-35-58_149003a2d400f6adb210d7e357a3a646.jpg" class="click" onClick="play()" />
+        <p>
+        <h2>浅唱</h2> 真名：陈佳嵘
+        <br>🆔号码（本人自爆）：34172120070918****
+        <p>来自安徽芜湖东至县（🆔前六位），定居与广东东莞</p>
+        <p>现就读于：广东创新科技职业学院（技校/民办）</p>
+        <p>哔哩哔哩账号：<a href="https://b23.tv/amAmBjL" target="_blank" style="color:black">UID:35001975 </a></p>
+        <p>为什么浅唱被喷被抽象连我打匹配/休闲模式的玩家都感受震撼，可以去哔哩哔哩搜索相关内容你就知道了🥰</p>
+        </p>
+    </details>
+
+    <div class="aq5">
+        <p style="font-weight: 900;font-size:32px;">留言板</p>
+        <p>请和谐友善发言！谢谢了qwq，这只是个整活抽象站而已啦</p>
+
+        <!--WAP版-->
+        <div id="SOHUCS"></div>
+        <script id="changyan_mobile_js" charset="utf-8" type="text/javascript" src="https://cy-cdn.kuaizhan.com/upload/mobile/wap-js/changyan_mobile.js?client_id=cyvvUCT9M&conf=prod_24d5b7c502207205b9346e4135e5ba75">
+        </script>
+
+    </div>
+
+    <hr align="center">
+    <p>非手机端用户建议使用手机查看或F12进入手机模式 <span style="font-weight: 900;">以获得更好的观感捏</b></p>
+    <p style="font-weight: bold;color:red">注意：以上内容纯属虚构娱乐，请勿当真！请适度玩梗！</p>
+    <p><a href="https://abaing.com" target="_blank" style="color:black">阿巴ing_</a> 2023-2028（5年）wbgx.pw</p>
+
+
+
+    <script>
+        window.onload = function() {
+            var audio = document.getElementById('music');
+            audio.pause(); //打开页面时无音乐
+
+        }
+
+        function play() {
+            var audio = document.getElementById('music');
+            if (audio.paused) {
+                audio.play();
+            } else {
+                audio.pause();
+                audio.currentTime = 0; //音乐从头播放
+            }
+        }
+    </script>
+
+    <script>
+        window.onload = function() {
+            var audio = document.getElementById('music1');
+            audio.pause(); //打开页面时无音乐
+
+        }
+
+        function play1() {
+            var audio = document.getElementById('music1');
+            if (audio.paused) {
+                audio.play();
+            } else {
+                audio.pause();
+                audio.currentTime = 0; //音乐从头播放
+            }
+        }
+    </script>
+
+</body>
+
+</html>
